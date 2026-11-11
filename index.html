@@ -1,62 +1,23 @@
----
-layout: base
-title: Home
----
-<head>
-    <link rel="stylesheet" href="/assets/css/index.css">
-</head>
-
-<div class="container-fluid home-container">
-    <!-- <h1 class="name">Abdul-Karim Rai</h1> -->
-    <h1 class="name">Aboudi Rai</h1>
-    <p class="subname">عبد الكريم الراعي</p>
-
-    <ul class="navbar">
-        <li>🏗️ <a href="ventures">Ventures</a></li>
-        <li>🔧 <a href="projects">Projects</a></li>
-        <li>📝 <a href="writing">Writing</a></li>
-        <li>📜 <a href="assets/pdf/AKR-RESUME.pdf">Resume</a></li>
-    </ul>
-
-    <div class="content row">
-        <!-- Bio -->
-        <div class="col" style="text-align: left">
-            <p>
-                I’m currently pursuing my M.S.E. at the University of Pennsylvania in Computer Science & Computer Graphics. Previously, I received my B.S. in Computer Science from Penn State. Lately, I’ve been interested in Bitcoin, Islamic Finance (IsFi), and financial markets. I am determined to use IsFi to make usury-free financial instruments accessible to the everyday American. 
-
-                <br><br> 
-
-                My latest venture is <a href="https://shepherdlabs.co">Shepherd Labs</a>, a fintech devoted to building ethically-compliant financial products for Muslim Americans.
-
-                <br><br>
-
-                I work as a Protocol Analyst for <a href="https://artemis.xyz">Artemis</a>. I'm also on the development committee for <a href="https://www.franklindao.xyz/">FranklinDAO</a>, where I design and develop blockchain applications.
-
-                <br><br>
-
-                {% if site.posts.first %}
-                I like to write out my ideas. Here's my latest one: 
-                <a href="{{ site.posts.first.url }}">{{ site.posts.first.title }}</a> and the rest of my <a href="{{ site.url }}/writing">writing</a>.
-                {% endif %}
-
-                <br><br>
-
-                I’m <a href="https://en.wikipedia.org/wiki/Sidon">Lebanese</a>-<a href="https://en.wikipedia.org/wiki/Acre,_Israel">Palestinian</a>-<a href="https://en.wikipedia.org/wiki/Bergen_County,_New_Jersey">American</a> 🇺🇸 🇱🇧 🇵🇸. Aside from my entrepreneurial goals, I’m an aspiring polyglot with goals of proficiency in Arabic, French, and Mandarin, in that order.
-
-                <br><br>
-
-                Check out my socials: <a href="https://twitter.com/aykae_r" target="_blank">Twitter</a> // <a href="https://github.com/aykae" target="_blank">GitHub</a> // <a href="https://www.linkedin.com/in/abdul-karim-rai-0a77a0193/" target="_blank">LinkedIn</a> // <a href="https://www.goodreads.com/user/show/144468818-aykae" target="_blank">Goodreads</a>
-
-                <br><br>
-
-                Contact me via <a href="mailto:hi@aykae.com">hi@aykae.com</a> or <a href="https://twitter.com/aykae_r" target="_blank">Twitter DM</a>.
-            </p>
-        </div>
-
-        <!-- Image -->
-        <div class="col" style="padding: 1% 0% 0% 5%;">
-            <img style="width: 90%; border-radius: 5%;" src="assets/img/home/paris2023.jpg" />
-            <p class="caption" style="width: 90%; color: #a3a3a3"><i>Le Panthéon. Paris, France. March, 2023.</i></p>
-        </div>
-    </div>
-</div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact</title>
+    <meta name="description" content="Contact hi@aykae.com.">
+    <style>
+      :root { color-scheme: light; background: #f7f5ef; color: #34332f; }
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      main { min-height: 100vh; min-height: 100svh; display: grid; place-items: center; padding: 24px; }
+      a { color: inherit; font: 400 clamp(20px, 3vw, 28px)/1.5 Georgia, 'Times New Roman', serif; text-decoration: none; }
+      a:hover { text-decoration: underline; text-underline-offset: 6px; text-decoration-thickness: 1px; }
+      a:focus-visible { outline: 1px solid currentColor; outline-offset: 8px; border-radius: 2px; }
+    </style>
+  </head>
+  <body>
+    <main>
+      <a href="mailto:hi@aykae.com">hi@aykae.com</a>
+    </main>
+  </body>
+</html>
